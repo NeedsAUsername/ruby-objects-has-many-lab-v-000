@@ -27,7 +27,8 @@ class Artist
 
     def self.song_count
         @@all.collect do |song|
-            song ? song
+            if song
+                
     end
 
 end
