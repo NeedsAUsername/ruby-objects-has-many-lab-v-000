@@ -26,13 +26,11 @@ class Artist
     end
 
     def self.song_count
-        counter = 0
-        @@all.each do |song|
-            if song
-                counter += 1
-            end
+        all_songs = []
+        @@all.each do |artist|
+            all_songs += artist.songs
         end
-        count - 5
+        all_songs.length
     end
 
 end
