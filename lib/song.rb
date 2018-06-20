@@ -15,5 +15,4 @@ class Song
     def artist_name
         self.artist || nil
     end
-
 end
