@@ -3,9 +3,12 @@ class Author
 
     def initialize(name)
         @name = name
-        posts = []
+        @posts = []
     end
 
     def add_post(name)
-        
+        post.artist = self
+        @posts << name 
+    end
+
 end
