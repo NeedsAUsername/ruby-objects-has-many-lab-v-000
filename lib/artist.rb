@@ -30,6 +30,9 @@ class Artist
         @@all.each do |song|
             if song
                 counter += 1
+            end
+        end
+        count - 5
     end
 
 end
