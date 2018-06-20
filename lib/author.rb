@@ -6,9 +6,12 @@ class Author
         @posts = []
     end
 
-    def add_post(name)
-        
+    def add_post(post)
+        @posts << post
         post.artist = self
     end
+
+    def add_post_by_title(post)
+        
 
 end
